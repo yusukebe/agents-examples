@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "browser-run",
+  "main": "./src/index.ts",
+  "compatibility_date": "2026-07-06",
+  "browser": {
+    "binding": "BROWSER",
+    "remote": true
+  }
+}

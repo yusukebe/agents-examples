@@ -1,20 +1,16 @@
 {
-  "name": "schedule-tasks",
+  "name": "browser-run",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
-    "client": "node src/client.ts",
     "deploy": "wrangler deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
   "dependencies": {
-    "agents": "^0.17.3",
-    "hono": "^4.12.27",
-    "hono-agents": "^3.0.11"
+    "hono": "^4.12.27"
   },
   "devDependencies": {
-    "@types/node": "^22.10.0",
     "wrangler": "^4.107.0"
   }
 }

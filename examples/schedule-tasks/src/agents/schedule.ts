@@ -7,12 +7,12 @@ export type ScheduleState = {
 export class ScheduleAgent extends Agent<CloudflareBindings, ScheduleState> {
   initialState: ScheduleState = { messages: [] }
 
-  // seconds 秒後に showMessage を実行するよう予約する
+  // Called from the Hono app. Runs showMessage after `seconds` seconds.
   async scheduleMessage(seconds: number, text: string) {
     await this.schedule(seconds, 'showMessage', { text })
   }
 
-  // 予約時刻になると Agents SDK がこのメソッドを呼ぶ
+  // Runs when the schedule fires. setState auto-syncs to connected clients.
   async showMessage(payload: { text: string }, _schedule: Schedule) {
     this.setState({ messages: [...this.state.messages, payload.text] })
   }

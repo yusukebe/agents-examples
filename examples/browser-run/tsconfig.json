@@ -1,12 +1,11 @@
 {
-  "extends": "agents/tsconfig",
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "strict": true,
     "skipLibCheck": true,
-    "lib": ["ESNext", "DOM"],
-    "types": ["./worker-configuration.d.ts", "node"]
+    "lib": ["ESNext"],
+    "types": ["./worker-configuration.d.ts"]
   }
 }
