@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "workers-ai",
   "main": "./src/index.ts",
-  "compatibility_date": "2026-05-21",
+  "compatibility_date": "2026-07-06",
   "ai": {
     "binding": "AI"
   }

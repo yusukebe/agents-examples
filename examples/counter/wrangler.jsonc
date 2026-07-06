@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "agent-counter",
   "main": "./src/index.tsx",
-  "compatibility_date": "2026-05-21",
+  "compatibility_date": "2026-07-06",
   "compatibility_flags": ["nodejs_compat"],
   "durable_objects": {
     "bindings": [
