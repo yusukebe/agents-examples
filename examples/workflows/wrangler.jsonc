@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "workflows",
+  "main": "./src/index.ts",
+  "compatibility_date": "2026-07-06",
+  "observability": {
+    "enabled": true
+  },
+  "workflows": [
+    {
+      "name": "my-workflow",
+      "binding": "MY_WORKFLOW",
+      "class_name": "MyWorkflow"
+    }
+  ]
+}
