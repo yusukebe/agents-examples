@@ -2,10 +2,9 @@
   "name": "my-agent-app",
   "private": true,
   "type": "module",
-  "workspaces": ["examples/*"],
   "scripts": {
-    "dev": "bun --filter '*' dev",
-    "build": "bun --filter '*' build"
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r --parallel build"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.29.0"

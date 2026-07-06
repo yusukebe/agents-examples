@@ -1,7 +1,7 @@
-bun.lock
 skills-lock.json
 .claude
 worker-configuration.d.ts
+pnpm-lock.yaml
 
 # prod
 dist/
