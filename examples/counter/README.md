@@ -1,8 +1,6 @@
 # Agents SDK (counter)
 
-A minimal stateful Agent. The count is stored in the Agent and synced to the
-React client in real time via `setState` — `@callable` methods (`increment` /
-`decrement`) are invoked over WebSocket.
+A minimal stateful Agent. The count is stored in the Agent and synced to the React client in real time via `setState` — `@callable` methods (`increment` / `decrement`) are invoked over WebSocket.
 
 ## Try it
 

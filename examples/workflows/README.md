@@ -1,8 +1,6 @@
 # Workflows
 
-A durable, multi-step job with `WorkflowEntrypoint` and `step.do()`. Each step
-is retried and persisted independently, and `step.sleep` pauses without using
-resources.
+A durable, multi-step job with `WorkflowEntrypoint` and `step.do()`. Each step is retried and persisted independently, and `step.sleep` pauses without using resources.
 
 ## Try it
 

@@ -1,7 +1,6 @@
 # Browser Run
 
-Take a screenshot with Browser Run's quick actions — one binding call
-(`env.BROWSER.quickAction('screenshot', { url })`), no Puppeteer, no API token.
+Take a screenshot with Browser Run's quick actions — one binding call (`env.BROWSER.quickAction('screenshot', { url })`), no Puppeteer, no API token.
 
 ## Try it
 

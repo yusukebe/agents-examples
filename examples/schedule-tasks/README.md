@@ -1,7 +1,6 @@
 # Schedule tasks
 
-An Agent schedules a task with `this.schedule()`. When it fires, `setState()`
-pushes the result to every connected client automatically.
+An Agent schedules a task with `this.schedule()`. When it fires, `setState()` pushes the result to every connected client automatically.
 
 - **Register**: Hono app (`GET /schedule`)
 - **List**: Hono app (`GET /`)
