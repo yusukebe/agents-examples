@@ -10,23 +10,23 @@
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
   "dependencies": {
-    "@cloudflare/ai-chat": "^0.7.1",
-    "agents": "^0.16.0",
-    "ai": "^6.0.190",
-    "hono": "^4.12.25",
+    "@cloudflare/ai-chat": "^0.9.3",
+    "agents": "^0.17.3",
+    "ai": "^6.0.219",
+    "hono": "^4.12.27",
     "hono-agents": "^3.0.11",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "workers-ai-provider": "^3.1.14",
+    "workers-ai-provider": "^3.3.1",
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "^1.40.2",
+    "@cloudflare/vite-plugin": "^1.43.0",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.2",
-    "vite": "^8.0.16",
+    "@vitejs/plugin-react": "^6.0.3",
+    "vite": "^8.1.3",
     "vite-ssr-components": "^0.6.1",
-    "wrangler": "^4.100.0"
+    "wrangler": "^4.107.0"
   }
 }

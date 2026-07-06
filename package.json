@@ -7,6 +7,6 @@
     "build": "pnpm -r --parallel build"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-decorators": "^7.29.0"
+    "@babel/plugin-proposal-decorators": "^7.29.7"
   }
 }
